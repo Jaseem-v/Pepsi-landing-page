@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+    <!-- ----------loader------ -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!-x- ----------loader------ -x->
+
+    <div class="main">
+    <div class="container">
+
+
+    <section class="nav-bar">
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <div class="toggle-menu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#" class="text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-decoration-none">Products</a></li>
+                <li><a href="#" class="text-decoration-none">Whats new</a></li>
+                <li><a href="#" class="text-decoration-none">Newsletter</a></li>
+                <li><a href="#" class="text-decoration-none">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    
+        <div class="row">
+            <section class="content">
+                <div class="left-part col-md-6 col-sm-12 ">
+                    <h1>That's What <br> <span>i like</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus consectetur similique
+                        laborum quidem voluptatum sint qui ullam omnis necessitatibus.
+                        Impedit distinctio facere voluptas quos dolorum sed quo illum. Veritatis, eligendi.
+                    </p>
+
+                    <button class="btn">
+                        View all products
+                    </button>
+
+                </div>
+
+                <!-- RIght-part---------- -->
+
+                <div class="right-part col-md-6 col-sm-12 ">
+                    <img src="images/pepsi001.png" alt="pepsi" class="pepsi">
+                </div>
+
+                <!-x- RIght-part---------- -x->
+
+
+            </section>
+
+        </div>
+
+        <section class="pepsi-button">
+            <ul>
+                <li class="click-Them">Click -> </li>
+                <li><img src="images/pepsi001.png" onclick="imageSlider('images/pepsi001.png');BgColorChange('#0062be')"></li>
+                <li><img src="images/pepsi002.png" onclick="imageSlider('images/pepsi002.png');BgColorChange('#e60c2c')"></li>
+                <li><img src="images/pepsi003.png" onclick="imageSlider('images/pepsi003.png');BgColorChange('#1e1e1e')"></li>
+            </ul>
+        </section>
+    </div>
+
+</div> 
+
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
